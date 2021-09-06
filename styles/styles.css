@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+*{
+    box-sizing: border-box;
+}
 .container{
+    position:fixed;
     border: 2px solid red;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight:500;
+    width: 28.5%;
+    height: 80%;
+    margin: 50px 580px 75px;
+    border-radius: 3%;
+}
+
+#price{
+    border: 2px solid red;
+
+}
+#img{
+    border-radius: 3%;
+}
+
+#btn{
+    color:aliceblue;
+    background-color: hsl(245, 75%, 52%);
+    height:40px;
+    width: 70%;
+    border-radius: 10px;
 }
